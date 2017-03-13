@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { FeedsComponent } from './feeds/feeds.component';
 import { FiltersComponent } from './filters/filters.component';
 import { FeedNewComponent } from './feed-new/feed-new.component';
+import { MonitoringComponent } from './monitoring/monitoring.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FeedNewComponent } from './feed-new/feed-new.component';
     LoginComponent,
     FeedsComponent,
     FiltersComponent,
-    FeedNewComponent
+    FeedNewComponent,
+    MonitoringComponent
   ],
   imports: [
     BrowserModule,
