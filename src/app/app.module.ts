@@ -2,21 +2,29 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { Router } from '@angular/router';
+
+import { FeedManegerRoutingModule }     from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { FeedsComponent } from './feeds/feeds.component';
+import { FiltersComponent } from './filters/filters.component';
+import { FeedNewComponent } from './feed-new/feed-new.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    FeedsComponent
+    FeedsComponent,
+    FiltersComponent,
+    FeedNewComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    FeedManegerRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,6 @@
 .btn-group-sm>.btn, .btn-sm {
 	margin-top: 7px;
+	text-align: right;
 }
 
 .dropdown {
