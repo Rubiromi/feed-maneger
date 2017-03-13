@@ -6,6 +6,7 @@ a, a:link {
 
 a:hover {
 	text-decoration: none; /* no underline */ 
+	cursor: pointer;
 }
 
 a:active {
