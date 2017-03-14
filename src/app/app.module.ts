@@ -13,6 +13,7 @@ import { FiltersComponent } from './filters/filters.component';
 import { FeedNewComponent } from './feed-new/feed-new.component';
 import { MonitoringComponent } from './monitoring/monitoring.component';
 import { HistoryComponent } from './history/history.component';
+import { LoadingParametersComponent } from './loading-parameters/loading-parameters.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HistoryComponent } from './history/history.component';
     FiltersComponent,
     FeedNewComponent,
     MonitoringComponent,
-    HistoryComponent
+    HistoryComponent,
+    LoadingParametersComponent
   ],
   imports: [
     BrowserModule,
