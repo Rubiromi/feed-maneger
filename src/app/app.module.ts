@@ -16,6 +16,7 @@ import { HistoryComponent } from './history/history.component';
 import { LoadingParametersComponent } from './loading-parameters/loading-parameters.component';
 import { RewritingParametersComponent } from './rewriting-parameters/rewriting-parameters.component';
 import { AdvancedParametersComponent } from './advanced-parameters/advanced-parameters.component';
+import { LoadingResultsComponent } from './loading-results/loading-results.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AdvancedParametersComponent } from './advanced-parameters/advanced-para
     HistoryComponent,
     LoadingParametersComponent,
     RewritingParametersComponent,
-    AdvancedParametersComponent
+    AdvancedParametersComponent,
+    LoadingResultsComponent
   ],
   imports: [
     BrowserModule,
