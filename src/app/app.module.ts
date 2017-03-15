@@ -18,6 +18,7 @@ import { RewritingParametersComponent } from './rewriting-parameters/rewriting-p
 import { AdvancedParametersComponent } from './advanced-parameters/advanced-parameters.component';
 import { LoadingResultsComponent } from './loading-results/loading-results.component';
 import { FeedHistoryComponent } from './feed-history/feed-history.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FeedHistoryComponent } from './feed-history/feed-history.component';
     RewritingParametersComponent,
     AdvancedParametersComponent,
     LoadingResultsComponent,
-    FeedHistoryComponent
+    FeedHistoryComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

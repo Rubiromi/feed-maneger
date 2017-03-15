@@ -11,6 +11,7 @@ import { RewritingParametersComponent } from './rewriting-parameters/rewriting-p
 import { AdvancedParametersComponent } from './advanced-parameters/advanced-parameters.component';
 import { FiltersComponent } from './filters/filters.component';
 import { LoadingResultsComponent } from './loading-results/loading-results.component';
+import { ProductsComponent } from './products/products.component';
 // import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
@@ -28,7 +29,8 @@ const routes: Routes = [
     { path: 'rewriting-parameters', component: RewritingParametersComponent },
     { path: 'advanced-parameters', component: AdvancedParametersComponent },
     { path: 'filters', component: FiltersComponent },
-    { path: 'loading-results', component: LoadingResultsComponent }
+    { path: 'loading-results', component: LoadingResultsComponent },
+    { path: 'products', component: ProductsComponent },
   ]}
 ];
 
