@@ -8,7 +8,7 @@
 
 .nav-pills>li>a:hover {
 	background-color: white;
-	font-size: 120%;
+	color: red;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus {

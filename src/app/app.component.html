@@ -34,7 +34,8 @@
   <li role="presentation"><a href="#">Management</a></li> <!-- "active" should change when other tabs are clicked -->
   <li role="presentation"><a href="monitoring">Monitoring</a></li>
   <li role="presentation"><a href="history">History</a></li>
-  <li role="presentation" class="active"><a routerLink="/feeds/:id/new">Edit Feed</a></li>
+  <li role="presentation" class="active"><a href="feeds/:id/new">Edit Feed</a></li>
+  <!-- <li role="presentation"><a routerLink="/feeds/:id/new">Edit Feed</a></li>  --><!-- This tab only shows when it's in edit mode -->
 </ul>
 
 <router-outlet></router-outlet>
