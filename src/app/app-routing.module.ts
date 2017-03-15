@@ -7,6 +7,7 @@ import { MonitoringComponent } from './monitoring/monitoring.component';
 import { HistoryComponent } from './history/history.component';
 import { LoadingParametersComponent } from './loading-parameters/loading-parameters.component';
 import { RewritingParametersComponent } from './rewriting-parameters/rewriting-parameters.component';
+import { AdvancedParametersComponent } from './advanced-parameters/advanced-parameters.component';
 // import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
     { path: 'monitoring', component: MonitoringComponent },
     { path: 'history', component: HistoryComponent },
     { path: 'loading-parameters', component: LoadingParametersComponent },
-    { path: 'rewriting-parameters', component: RewritingParametersComponent }
+    { path: 'rewriting-parameters', component: RewritingParametersComponent },
+    { path: 'advanced-parameters', component: AdvancedParametersComponent }
   ]}
 ];
 

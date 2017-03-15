@@ -15,6 +15,7 @@ import { MonitoringComponent } from './monitoring/monitoring.component';
 import { HistoryComponent } from './history/history.component';
 import { LoadingParametersComponent } from './loading-parameters/loading-parameters.component';
 import { RewritingParametersComponent } from './rewriting-parameters/rewriting-parameters.component';
+import { AdvancedParametersComponent } from './advanced-parameters/advanced-parameters.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { RewritingParametersComponent } from './rewriting-parameters/rewriting-p
     MonitoringComponent,
     HistoryComponent,
     LoadingParametersComponent,
-    RewritingParametersComponent
+    RewritingParametersComponent,
+    AdvancedParametersComponent
   ],
   imports: [
     BrowserModule,
