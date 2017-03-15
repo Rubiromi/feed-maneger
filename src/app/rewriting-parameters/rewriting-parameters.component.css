@@ -6,6 +6,17 @@
 	margin: 5px auto;
 }
 
+.nav-pills>li>a:hover {
+	background-color: white;
+	font-size: 120%;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+	background-color: white;
+	color: #337ab7;
+	font-size: 120%;
+}
+
 table {
 	margin: 10px auto 20px 15px;
 }
