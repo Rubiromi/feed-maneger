@@ -5,6 +5,7 @@ import { FeedNewComponent } from './feed-new/feed-new.component';
 import { LoginComponent } from './login/login.component';
 import { MonitoringComponent } from './monitoring/monitoring.component';
 import { HistoryComponent } from './history/history.component';
+import { FeedHistoryComponent } from './feed-history/feed-history.component';
 import { LoadingParametersComponent } from './loading-parameters/loading-parameters.component';
 import { RewritingParametersComponent } from './rewriting-parameters/rewriting-parameters.component';
 import { AdvancedParametersComponent } from './advanced-parameters/advanced-parameters.component';
@@ -22,6 +23,7 @@ const routes: Routes = [
     { path: 'feeds/:id/new', component: FeedNewComponent },
     { path: 'monitoring', component: MonitoringComponent },
     { path: 'history', component: HistoryComponent },
+    { path: 'feed-history', component: FeedHistoryComponent },
     { path: 'loading-parameters', component: LoadingParametersComponent },
     { path: 'rewriting-parameters', component: RewritingParametersComponent },
     { path: 'advanced-parameters', component: AdvancedParametersComponent },
