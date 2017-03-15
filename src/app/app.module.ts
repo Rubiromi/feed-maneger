@@ -14,6 +14,7 @@ import { FeedNewComponent } from './feed-new/feed-new.component';
 import { MonitoringComponent } from './monitoring/monitoring.component';
 import { HistoryComponent } from './history/history.component';
 import { LoadingParametersComponent } from './loading-parameters/loading-parameters.component';
+import { RewritingParametersComponent } from './rewriting-parameters/rewriting-parameters.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoadingParametersComponent } from './loading-parameters/loading-paramet
     FeedNewComponent,
     MonitoringComponent,
     HistoryComponent,
-    LoadingParametersComponent
+    LoadingParametersComponent,
+    RewritingParametersComponent
   ],
   imports: [
     BrowserModule,

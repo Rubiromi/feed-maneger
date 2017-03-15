@@ -6,6 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { MonitoringComponent } from './monitoring/monitoring.component';
 import { HistoryComponent } from './history/history.component';
 import { LoadingParametersComponent } from './loading-parameters/loading-parameters.component';
+import { RewritingParametersComponent } from './rewriting-parameters/rewriting-parameters.component';
 // import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
     { path: 'feeds/:id/new', component: FeedNewComponent },
     { path: 'monitoring', component: MonitoringComponent },
     { path: 'history', component: HistoryComponent },
-    { path: 'loading-parameters', component: LoadingParametersComponent }
+    { path: 'loading-parameters', component: LoadingParametersComponent },
+    { path: 'rewriting-parameters', component: RewritingParametersComponent }
   ]}
 ];
 
