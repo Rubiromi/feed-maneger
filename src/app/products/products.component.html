@@ -59,8 +59,387 @@
 			<button type="submit" class="btn btn-default">Reset</button>
 		</div>
 	</div> <!-- Row ended -->
-	<p>Filters&nbsp;<span class="rotate270 caret"></span>-----------------------------------------------------------------------------------------------------------------------------------------------------</p>
-	<p>Options&nbsp;<span class="rotate270 caret"></span>---------------------------------------------------------------------------------------------------------------------------------------------------</p>
+	
+	<div class="filter-contents">
+		<!-- <p>Filters&nbsp;<span class="rotate270 caret"></span></p> -->
+		<p>Filters&nbsp;<span class="caret"></span></p>
+
+		<form class="form-horizontal">
+
+			<div class="form-group">
+				<div class="col-md-4">
+			    <label>
+			      <input type="checkbox"> Is active
+			    </label>
+			  </div>
+			  <div class="content col-md-8">
+		  		<select name="isactive" id="isactive">
+		  			<option value="1" selected="selected"></option>
+		  			<option value="2">Yes</option>
+						<option value="3">No</option>
+		  		</select>
+		  	</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-4">
+			    <label>
+			      <input type="checkbox"> Id
+			    </label>
+			  </div>
+			  <div class="content col-md-1">
+		  		<select name="id" id="id">
+		  			<option value="1" selected="selected">=</option>
+		  			<option value="2">contain</option>
+						<option value="3">look like</option>
+		  		</select>
+		  	</div>
+		  	<div class="col-md-3">
+		  		<input class="form-control in-filter">
+		  	</div>
+		  	<div class="col-md-2">
+		  		<input type="checkbox">
+			  </div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-4">
+			    <label>
+			      <input type="checkbox"> Title
+			    </label>
+			  </div>
+			  <div class="content col-md-1">
+		  		<select name="title" id="title">
+		  			<option value="1" selected="selected">=</option>
+		  			<option value="2">contain</option>
+						<option value="3">look like</option>
+		  		</select>
+		  	</div>
+		  	<div class="col-md-3">
+		  		<input class="form-control in-filter">
+		  	</div>
+		  	<div class="col-md-2">
+		  		<input type="checkbox">
+			  </div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-4">
+			    <label>
+			      <input type="checkbox"> Description
+			    </label>
+			  </div>
+			  <div class="content col-md-1">
+		  		<select name="description" id="description">
+		  			<option value="1" selected="selected">=</option>
+		  			<option value="2">contain</option>
+						<option value="3">look like</option>
+		  		</select>
+		  	</div>
+		  	<div class="col-md-3">
+		  		<input class="form-control in-filter">
+		  	</div>
+		  	<div class="col-md-2">
+		  		<input type="checkbox">
+			  </div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-4">
+			    <label>
+			      <input type="checkbox"> Price
+			    </label>
+			  </div>
+			  <div class="content col-md-1">
+		  		<select name="price" id="price">
+		  			<option value="1" selected="selected">=</option>
+		  			<option value="2"><=</option>
+						<option value="3"><</option>
+						<option value="4">=></option>
+						<option value="5">></option>
+						<option value="6">between</option>
+		  		</select>
+		  	</div>
+		  	<div class="col-md-3">
+		  		<input class="form-control in-filter">
+		  	</div>
+		  	<div class="col-md-2">
+		  		<input type="checkbox">
+			  </div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-4">
+			    <label>
+			      <input type="checkbox"> Price old
+			    </label>
+			  </div>
+			  <div class="content col-md-1">
+		  		<select name="priceold" id="priceold">
+		  			<option value="1" selected="selected">=</option>
+		  			<option value="2"><=</option>
+						<option value="3"><</option>
+						<option value="4">=></option>
+						<option value="5">></option>
+						<option value="6">between</option>
+		  		</select>
+		  	</div>
+		  	<div class="col-md-3">
+		  		<input class="form-control in-filter">
+		  	</div>
+		  	<div class="col-md-2">
+		  		<input type="checkbox">
+			  </div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-4">
+			    <label>
+			      <input type="checkbox"> Url product
+			    </label>
+			  </div>
+			  <div class="content col-md-1">
+		  		<select name="urlproduct" id="urlproduct">
+		  			<option value="1" selected="selected">=</option>
+		  			<option value="2">contain</option>
+						<option value="3">look like</option>
+		  		</select>
+		  	</div>
+		  	<div class="col-md-3">
+		  		<input class="form-control in-filter">
+		  	</div>
+		  	<div class="col-md-2">
+		  		<input type="checkbox">
+			  </div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-4">
+			    <label>
+			      <input type="checkbox"> Update at
+			    </label>
+			  </div>
+			  <div class="content col-md-1">
+		  		<select name="updateat" id="updateat">
+		  			<option value="1" selected="selected">=</option>
+		  			<option value="2">contain</option>
+						<option value="3">look like</option>
+		  		</select>
+		  	</div>
+		  	<div class="col-md-3">
+		  		<input class="form-control in-filter">
+		  	</div>
+		  	<div class="col-md-2">
+		  		<input type="checkbox">
+			  </div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-2">
+			    <label>
+			      <input type="checkbox"> Custom
+			    </label>
+			  </div>
+			  <div class="content col-md-2">
+		  		<select name="custom" id="custom">
+		  			<option value="1" selected="selected"></option>
+		  			<option value="2">competitor1_name</option>
+						<option value="3">competitor1_rate</option>
+						<option value="4">competitor2_name</option>
+						<option value="5">competitor2_rate</option>
+						<option value="6">dispo/option>
+						<option value="7">duree</option>
+						<option value="8">installment_amount</option>
+						<option value="9">installment_count</option>
+						<option value="10">is_new</option>
+						<option value="11">legal_notice</option>
+						<option value="12">market_position</option>
+						<option value="13">reviewNumber</option>
+						<option value="14">reviewStars</option>
+						<option value="15">reviewText</option>
+						<option value="16">reviewTitle</option>
+						<option value="17">special</option>
+						<option value="18">tranche_de_montant</option>
+						<option value="19">up_price</option>
+						<option value="20">up_quantity</option>
+						<option value="21">up_unit</option>
+		  		</select>
+		  	</div>
+		  	<div class="content col-md-1">
+		  		<select name="updateat" id="updateat">
+		  			<option value="1" selected="selected">=</option>
+		  			<option value="2">contain</option>
+						<option value="3">look like</option>
+		  		</select>
+		  	</div>
+		  	<div class="col-md-3">
+		  		<input class="form-control in-filter">
+		  	</div>
+		  	<div class="col-md-2">
+		  		<input type="checkbox">
+			  </div>
+			</div>
+
+
+
+			<div class="form-group">
+				<div class="col-md-2">
+			    <label>Order by</label>
+			  </div>
+			  <div class="content col-md-3">
+		  		<select name="orderby" id="orderby">
+		  			<option value="1" selected="selected"></option>
+		  			<option value="2">price</option>
+						<option value="3">price_old</option>
+						<option value="4">updated_at</option>
+						<option value="5">is_active</option>
+						<option value="6">custom.dispo</option>
+						<option value="7">custom.installment_amount</option>
+						<option value="8">custom.installment_count</option>
+						<option value="9">custom.reviewStars</option>
+						<option value="10">custom.up_price</option>
+		  		</select>
+		  	</div>
+		  	<div class="content col-md-1">
+		  		<select name="updateat" id="updateat">
+		  			<option value="1" selected="selected">desc</option>
+		  			<option value="2">asc</option>
+		  		</select>
+		  	</div>
+			</div>
+
+		</form>
+	</div> <!-- filter_contents ends -->
+
+	<div class="filter-contents">
+		<!-- <p>Options&nbsp;<span class="rotate270 caret"></span></p> -->
+		<p>Options&nbsp;<span class="caret"></span></p>
+
+		<form class="form-horizontal">
+
+			<div class="form-group">
+				<div class="row">
+
+					<div class="col-md-4">
+
+						<div class="col-md-8">
+				    	<label>is_active (bool)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>_id (id)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>title (string)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>description (string)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>price (float)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>price_old (float)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>custom (json)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>category (string)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>url_image (image)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>url_product (link)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  	<div class="col-md-8">
+				    	<label>views (number)</label>
+				  	</div>
+				  	<div class="col-md-4">
+				  		<span class="glyphicon glyphicon-minus-sign text-danger"></span>
+				  	</div>
+
+				  </div> <!-- col-md-4 ends -->
+
+				  <div class="col-md-8">
+
+				  	<div class="col-md-4">
+				  		<label>Add a new custom column<br>("." for depth)</label>
+				  	</div>
+
+				  	<div class="col-md-4">
+				  		<input class="form-control in-filter" placeholder="Name field">
+				  	</div>
+
+				  	<div class="content col-md-1">
+				  		<select name="orderby" id="orderby">
+				  			<option value="1" selected="selected">String</option>
+				  			<option value="2">bool</option>
+								<option value="3">date</option>
+								<option value="4">float</option>
+								<option value="5">number</option>
+								<option value="6">json</option>
+								<option value="7">image</option>
+								<option value="8">link</option>
+								<option value="9">id</option>
+				  		</select>
+				  	</div>
+
+				  	<div class="col-md-1 col-md-offset-1">
+				  		<input class="form-control in-filter" placeholder="0">
+				  	</div>
+
+				  	<div class="col-md-1">
+				  		<span class="glyphicon glyphicon-plus-sign text-success"></span>
+				  	</div>
+
+				  </div> <!-- col-md-8 ends -->
+
+				</div> <!-- row ends -->
+			</div>
+		</form>
+
+	</div> <!-- filter-contents ends -->
 
 	<footer>
 		<span>Active</span>
@@ -76,102 +455,6 @@
 		<span>Clics</span>
 		<span>Views</span>
 	</footer>
-<!-- 
-<div class="container col-md-8">
-	<form class="form-horizontal">
 
-		<div class="form-group">
-		  <label for="resetupdated" class="col-md-3">Step reset updated</label>
-	  	<div class="content col-md-9">
-	  		<select name="resetupdated" id="resetupdated">
-	  			<option value="1" selected="selected">Yes</option>
-					<option value="2">No</option>
-	  		</select>
-	  		Reset flag for updated feed
-	  	</div>
-	  </div>	
-
-	  <div class="form-group">
-		  <label for="disablenonupdated" class="col-md-3">Step disable non updated</label>
-	  	<div class="content col-md-9">
-	  		<select name="disablenonupdated" id="disablenonupdated">
-	  			<option value="1" selected="selected">Yes</option>
-					<option value="2">No</option>
-	  		</select>
-	  		Deleted by updated flag
-	  	</div>
-	  </div>	
-
-	  <div class="form-group">
-		  <label for="biddingstep" class="col-md-3">Bidding step</label>
-	  	<div class="content col-md-9">
-	  		<select name="biddingstep" id="biddingstep">
-	  			<option value="1" selected="selected">Yes</option>
-					<option value="2">No</option>
-	  		</select>
-	  		Category bidding set-up
-	  	</div>
-	  </div>	
-
-	  <div class="form-group">
-		  <label for="qualitystep" class="col-md-3">Quality step</label>
-	  	<div class="content col-md-9">
-	  		<select name="qualitystep" id="qualitystep">
-	  			<option value="1" selected="selected">Yes</option>
-					<option value="2">No</option>
-	  		</select>
-	  		Feed quality KPI
-	  	</div>
-	  </div>	
-
-	  <div class="form-group">
-		  <label for="certifcheck" class="col-md-3">Certif check</label>
-	  	<div class="content col-md-9">
-	  		<select name="certifcheck" id="certifcheck">
-	  			<option value="1" selected="selected">Yes</option>
-					<option value="2">No</option>
-	  		</select>
-	  		Https certificate check
-	  	</div>
-	  </div>	
-
-	  <div class="form-group">
-		  <label for="imagecheck" class="col-md-3">Images check</label>
-	  	<div class="content col-md-9">
-	  		<select name="imagecheck" id="imagecheck">
-	  			<option value="1" selected="selected">Yes</option>
-					<option value="2">No</option>
-	  		</select>
-	  		Enables products images validation
-	  	</div>
-	  </div>	
-
-	  <div class="form-group">
-		  <label for="verticalsonproducts" class="col-md-3">Add verticals on products</label>
-	  	<div class="content col-md-9">
-	  		<select name="verticalsonproducts" id="verticalsonproducts">
-	  			<option value="1" selected="selected">Yes</option>
-					<option value="2">No</option>
-	  		</select>
-	  		Add verticals for every products
-	  	</div>
-	  </div>	
-
-	  <div class="form-group submit">
-	  	<div class="col-md-3">
-		  	<button type="submit" class="btn btn-primary">Save</button>
-		  	<button type="submit" class="btn btn-default">Cancel</button>
-		  </div>
-	  </div>
-
-	  <div class="checkbox">
-	    <label>
-	      <input type="checkbox"> Invalidate akamai cache ?
-	    </label>
-	    <button type="submit" class="btn btn-default invalidate">Invalidate</button>
-	  </div>
-
-	</form>
-</div> -->
 
 </div>
