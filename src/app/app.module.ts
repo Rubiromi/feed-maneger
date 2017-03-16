@@ -19,6 +19,7 @@ import { AdvancedParametersComponent } from './advanced-parameters/advanced-para
 import { LoadingResultsComponent } from './loading-results/loading-results.component';
 import { FeedHistoryComponent } from './feed-history/feed-history.component';
 import { ProductsComponent } from './products/products.component';
+import { FeedEditComponent } from './feed-edit/feed-edit.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProductsComponent } from './products/products.component';
     AdvancedParametersComponent,
     LoadingResultsComponent,
     FeedHistoryComponent,
-    ProductsComponent
+    ProductsComponent,
+    FeedEditComponent
   ],
   imports: [
     BrowserModule,

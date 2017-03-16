@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FeedsComponent } from './feeds/feeds.component';
 import { FeedNewComponent } from './feed-new/feed-new.component';
+import { FeedEditComponent } from './feed-edit/feed-edit.component';
 import { LoginComponent } from './login/login.component';
 import { MonitoringComponent } from './monitoring/monitoring.component';
 import { HistoryComponent } from './history/history.component';
@@ -22,6 +23,7 @@ const routes: Routes = [
     { path: 'feeds', component: FeedsComponent },
     { path: 'feeds/:id', component: FeedsComponent },
     { path: 'feeds/:id/new', component: FeedNewComponent },
+    { path: 'feeds/:id/edit', component: FeedEditComponent },
     { path: 'monitoring', component: MonitoringComponent },
     { path: 'history', component: HistoryComponent },
     { path: 'feed-history', component: FeedHistoryComponent },
