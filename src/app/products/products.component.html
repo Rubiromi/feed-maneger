@@ -16,4 +16,162 @@
 	  <li role="presentation"><a href="feed-history">Feed History</a></li>
 	</ul>
 </div>
-<h3>Couchbase</h3>
+
+<div class="container">
+	<div>
+		<img src="../../assets/couchbaselogo.png" alt="couchbase_logo" height="35">
+		<button class="btn btn-default products">Top products</button>
+		<!-- <button class="btn btn-default products">All products</button> -->
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-2">
+			0 products<br>Pages 1/1
+		</div>
+
+		<div class="col-md-3">
+			<input type="id" class="form-control" id="inputID" placeholder="ID">
+		</div>
+
+		<div class="col-md-1"> 
+		  <div class="input-group spinner">
+		    <input type="text" class="form-control" value="20">
+		    <div class="input-group-btn-vertical">
+		      <button class="btn btn-default" type="button"><i class="fa fa-caret-up"></i></button>
+		      <button class="btn btn-default" type="button"><i class="fa fa-caret-down"></i></button>
+		    </div>
+		  </div>
+			<script>
+		    (function ($) {
+				  $('.spinner .btn:first-of-type').on('click', function() {
+				    $('.spinner input').val( parseInt($('.spinner input').val(), 10) + 1);
+				  });
+				  $('.spinner .btn:last-of-type').on('click', function() {
+				    $('.spinner input').val( parseInt($('.spinner input').val(), 10) - 1);
+				  });
+				})(jQuery);
+			</script> <!-- It's not functioning -->
+		</div>
+		<div class="col-md-5 col-md-offset-1">
+			<button type="submit" class="btn btn-default">Search</button>
+			<button type="submit" class="btn btn-default">Search Active</button>
+			<button type="submit" class="btn btn-default">Reset</button>
+		</div>
+	</div> <!-- Row ended -->
+	<p>Filters&nbsp;<span class="rotate270 caret"></span>-----------------------------------------------------------------------------------------------------------------------------------------------------</p>
+	<p>Options&nbsp;<span class="rotate270 caret"></span>---------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+	<footer>
+		<span>Active</span>
+		<span>Id</span>
+		<span>Title</span>
+		<span>Description</span>
+		<span>Price</span>
+		<span>Price Old</span>
+		<span>Custom</span>
+		<span>Category</span>
+		<span>Image</span>
+		<span>URL</span>
+		<span>Clics</span>
+		<span>Views</span>
+	</footer>
+<!-- 
+<div class="container col-md-8">
+	<form class="form-horizontal">
+
+		<div class="form-group">
+		  <label for="resetupdated" class="col-md-3">Step reset updated</label>
+	  	<div class="content col-md-9">
+	  		<select name="resetupdated" id="resetupdated">
+	  			<option value="1" selected="selected">Yes</option>
+					<option value="2">No</option>
+	  		</select>
+	  		Reset flag for updated feed
+	  	</div>
+	  </div>	
+
+	  <div class="form-group">
+		  <label for="disablenonupdated" class="col-md-3">Step disable non updated</label>
+	  	<div class="content col-md-9">
+	  		<select name="disablenonupdated" id="disablenonupdated">
+	  			<option value="1" selected="selected">Yes</option>
+					<option value="2">No</option>
+	  		</select>
+	  		Deleted by updated flag
+	  	</div>
+	  </div>	
+
+	  <div class="form-group">
+		  <label for="biddingstep" class="col-md-3">Bidding step</label>
+	  	<div class="content col-md-9">
+	  		<select name="biddingstep" id="biddingstep">
+	  			<option value="1" selected="selected">Yes</option>
+					<option value="2">No</option>
+	  		</select>
+	  		Category bidding set-up
+	  	</div>
+	  </div>	
+
+	  <div class="form-group">
+		  <label for="qualitystep" class="col-md-3">Quality step</label>
+	  	<div class="content col-md-9">
+	  		<select name="qualitystep" id="qualitystep">
+	  			<option value="1" selected="selected">Yes</option>
+					<option value="2">No</option>
+	  		</select>
+	  		Feed quality KPI
+	  	</div>
+	  </div>	
+
+	  <div class="form-group">
+		  <label for="certifcheck" class="col-md-3">Certif check</label>
+	  	<div class="content col-md-9">
+	  		<select name="certifcheck" id="certifcheck">
+	  			<option value="1" selected="selected">Yes</option>
+					<option value="2">No</option>
+	  		</select>
+	  		Https certificate check
+	  	</div>
+	  </div>	
+
+	  <div class="form-group">
+		  <label for="imagecheck" class="col-md-3">Images check</label>
+	  	<div class="content col-md-9">
+	  		<select name="imagecheck" id="imagecheck">
+	  			<option value="1" selected="selected">Yes</option>
+					<option value="2">No</option>
+	  		</select>
+	  		Enables products images validation
+	  	</div>
+	  </div>	
+
+	  <div class="form-group">
+		  <label for="verticalsonproducts" class="col-md-3">Add verticals on products</label>
+	  	<div class="content col-md-9">
+	  		<select name="verticalsonproducts" id="verticalsonproducts">
+	  			<option value="1" selected="selected">Yes</option>
+					<option value="2">No</option>
+	  		</select>
+	  		Add verticals for every products
+	  	</div>
+	  </div>	
+
+	  <div class="form-group submit">
+	  	<div class="col-md-3">
+		  	<button type="submit" class="btn btn-primary">Save</button>
+		  	<button type="submit" class="btn btn-default">Cancel</button>
+		  </div>
+	  </div>
+
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox"> Invalidate akamai cache ?
+	    </label>
+	    <button type="submit" class="btn btn-default invalidate">Invalidate</button>
+	  </div>
+
+	</form>
+</div> -->
+
+</div>
